@@ -10,7 +10,7 @@ type Props = {
 };
 
 const baseClass = "flex flex-col items-center gap-0.5 p-1 lg:p-0 lg:mt-0";
-const hoverClass = "hover:text-white";
+const hoverClass = "transition-colors duration-200 ease-in-out hover:text-white";
 const activeClass = " text-neutral-300";
 
 function NavbarLink({ path, label, icon: Icon }: Props) {
@@ -27,7 +27,7 @@ function NavbarLink({ path, label, icon: Icon }: Props) {
 
         <span className="relative">
           <span className="whitespace-nowrap">{label}</span>
-          <span className="absolute left-0 top-5 my-1 w-0 h-0.5 rounded-full bg-white transition-all duration-200 ease-out group-hover:w-full" />
+          <span className="absolute left-0 top-5 my-1 w-0 h-0.5 rounded-full bg-white transition-all duration-300 ease-out group-hover:w-full" />
         </span>
 
         <div className="size-2 mt-1">
