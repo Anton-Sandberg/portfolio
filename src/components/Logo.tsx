@@ -1,6 +1,6 @@
 import { FaceSmileIcon } from "@heroicons/react/24/outline";
 import { NavLink } from "react-router-dom";
-import { PATHS } from "../router/PATHS";
+import { PATHS } from "@router/PATHS";
 
 const Logo = () => (
   <NavLink to={PATHS.home} className="flex items-center justify-center">

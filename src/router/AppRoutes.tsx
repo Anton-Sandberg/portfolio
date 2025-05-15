@@ -1,12 +1,12 @@
 import { Route, Routes } from "react-router-dom";
 import { PATHS } from "./PATHS";
-import Home from "../pages/Home";
-import NotFound from "../pages/NotFound";
-import About from "../pages/About";
-import Projects from "../pages/Projects";
-import Contact from "../pages/Contacts";
-import Resume from "../pages/Resume";
-import Skills from "../pages/Skills";
+import Home from "@pages/Home";
+import NotFound from "@pages/NotFound";
+import About from "@pages/About";
+import Projects from "@pages/Projects";
+import Contact from "@pages/Contacts";
+import Resume from "@pages/Resume";
+import Skills from "@pages/Skills";
 
 const AppRoutes = () => {
   return (

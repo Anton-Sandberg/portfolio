@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import { NAV_LINKS } from "../constants/navLinksConfig";
-import Logo from "./Logo";
-import NavbarLinkMobile from "./NavbarLinkMobile";
+import { NAV_LINKS } from "@constants/navLinksConfig";
+import Logo from "@components/Logo";
+import NavbarLinkMobile from "@components/navbar/NavbarLinkMobile";
 
 const NavbarMenuMobile = () => {
   const [open, setOpen] = useState(false);

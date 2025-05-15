@@ -1,6 +1,6 @@
-import NavbarLink from "./NavbarLink";
-import Logo from "./Logo";
-import { NAV_LINKS } from "../constants/navLinksConfig";
+import NavbarLink from "@components/navbar/NavbarLink";
+import Logo from "@components/Logo";
+import { NAV_LINKS } from "@constants/navLinksConfig";
 
 const NavbarMenu = () => {
   return (

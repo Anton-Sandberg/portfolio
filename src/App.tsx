@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
-import Navbar from "./assets/components/Navbar";
-import AppRoutes from "./assets/router/AppRoutes";
-import Container from "./assets/components/Container";
+import Navbar from "@components/navbar/Navbar";
+import AppRoutes from "@router/AppRoutes";
+import Container from "@components/Container";
 
 function App() {
   return (

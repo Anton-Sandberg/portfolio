@@ -1,6 +1,6 @@
-import Container from "./Container";
-import MobileNavbar from "./NavbarMenuMobile.tsx";
-import NavbarMenu from "./NavBarMenu.tsx";
+import Container from "@components/Container.tsx";
+import MobileNavbar from "@components/navbar/NavbarMenuMobile.tsx";
+import NavbarMenu from "@components/navbar/NavBarMenu.tsx";
 
 const Navbar = () => {
   return (
