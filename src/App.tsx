@@ -5,7 +5,7 @@ import Container from "@components/Container";
 
 function App() {
   return (
-    <div className="min-h-screen bg-black text-neutral-500">
+    <div className="min-h-screen bg-black text-neutral-500 font-nunito">
       <Navbar />
       <main>
         <Container>
