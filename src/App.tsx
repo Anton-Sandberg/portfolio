@@ -1,18 +1,16 @@
-import { Outlet } from "react-router-dom";
 import Navbar from "@components/navbar/Navbar";
 import AppRoutes from "@router/AppRoutes";
 import Container from "@components/Container";
 
 function App() {
   return (
-    <div className="min-h-screen bg-black text-neutral-500 font-nunito">
+    <div className="min-h-screen bg-black text-primary font-nunito">
       <Navbar />
       <main>
         <Container>
-          <Outlet />
+          <AppRoutes />
         </Container>
       </main>
-      <AppRoutes />
     </div>
   );
 }
