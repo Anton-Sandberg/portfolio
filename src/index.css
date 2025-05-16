@@ -3,6 +3,8 @@
 
 @theme {
   --font-nunito: "Nunito", sans-serif;
+  --color-primary: #989898;
+  --color-highlight: #d4d4d4;
 }
 
 html {
