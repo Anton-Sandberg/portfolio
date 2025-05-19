@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <header className="bg-black border-b-1 border-neutral-800 sticky top-0 z-50 pt-2 pb-2 drop-shadow-[0_4px_10px_rgba(0,0,0,1)]">
       <Container>
-        <div className="hidden md:block pl-8">
+        <div className="hidden md:block">
           <NavbarMenu />
         </div>
 
