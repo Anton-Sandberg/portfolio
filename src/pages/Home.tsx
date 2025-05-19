@@ -4,7 +4,7 @@ import WelcomeMessage from "@/components/home-page/WelcomeMessage";
 
 const Home = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start pt-10 space-y-10 ">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center py-10 space-y-10 ">
       <div>
         <WelcomeMessage />
       </div>
