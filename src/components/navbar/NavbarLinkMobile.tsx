@@ -13,10 +13,10 @@ function NavbarLinkMobile({ path, label, icon: Icon, onClick }: Props) {
     <NavLink
       to={path}
       onClick={onClick}
-      className="flex flex-row justify-center py-2 text-neutral-200"
+      className="flex flex-row justify-center py-2 text-neutral-200 text-xl"
     >
-      <div className="flex items-center gap-2">
-        {Icon && <Icon className="size-5" />}
+      <div className="flex items-center gap-3">
+        {Icon && <Icon className="size-7" />}
         {label}
       </div>
     </NavLink>
