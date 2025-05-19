@@ -2,7 +2,6 @@ import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { NAV_LINKS } from "@constants/navLinksConfig";
-import Logo from "@components/Logo";
 import NavbarLinkMobile from "@components/navbar/NavbarLinkMobile";
 
 const NavbarMenuMobile = () => {
@@ -10,8 +9,7 @@ const NavbarMenuMobile = () => {
 
   return (
     <div>
-      <div className="flex justify-between items-center p-4">
-        <Logo />
+      <div className="flex justify-end items-center p-4">
         <button onClick={() => setOpen(!open)} aria-label="Toggle menu">
           {open ? <XMarkIcon className="size-10" /> : <Bars3Icon className="size-10" />}
         </button>
