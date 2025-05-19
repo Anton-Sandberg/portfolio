@@ -30,20 +30,22 @@ function NavbarLink({ path, label, icon: Icon }: Props) {
           <span className="absolute left-0 top-5 my-1 w-0 h-0.5 rounded-full bg-white transition-all duration-300 ease-out group-hover:w-full" />
         </span>
 
-        <div className="size-2 mt-1">
-          {isActive && (
-            <motion.div
-              className="size-full rounded-full bg-current"
-              initial={{ scale: 0, opacity: 0 }}
-              animate={{ scale: 1, opacity: 1 }}
-              transition={{
-                type: "spring",
-                stiffness: 600,
-                damping: 15,
-              }}
-            />
-          )}
-        </div>
+        {isActive && (
+          <div className="size-2 mt-1">
+            {isActive && (
+              <motion.div
+                className="size-full rounded-full bg-current"
+                initial={{ scale: 0, opacity: 0 }}
+                animate={{ scale: 1, opacity: 1 }}
+                transition={{
+                  type: "spring",
+                  stiffness: 600,
+                  damping: 15,
+                }}
+              />
+            )}
+          </div>
+        )}
       </div>
     </NavLink>
   );
