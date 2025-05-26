@@ -1,4 +1,5 @@
 import { FaGithub } from "react-icons/fa";
+import WeatherForecast from "./WeatherForecast";
 
 const Footer = () => {
   return (
@@ -19,6 +20,7 @@ const Footer = () => {
           >
             <FaGithub className="inline-block size-6 hover:text-white transition" />
           </a>
+          <WeatherForecast /> {/* Ta bort efter rättning */}
         </div>
       </div>
     </footer>
