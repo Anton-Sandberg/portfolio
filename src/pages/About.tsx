@@ -1,6 +1,5 @@
 import AboutMeAccordion from "@/components/about-page/AboutMeAccordion";
 import ProfileFacts from "@/components/about-page/ProfileFacts";
-import TestimonialCard from "@/components/about-page/TestimonialCard";
 import TestimonialSection from "@/components/about-page/TestimonialSection";
 import { FaUser } from "react-icons/fa";
 
