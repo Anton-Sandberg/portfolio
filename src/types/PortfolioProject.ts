@@ -6,5 +6,6 @@ export interface PortfolioProject {
   techStacks: string[];
   dateCompleted: string;
   githubLink: string;
+  liveDemoLink?: string;
   imageUrl: string;
 }
