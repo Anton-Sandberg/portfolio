@@ -18,7 +18,7 @@ export const SKILLS = [
   {
     title: ".NET Core",
     description:
-      "Hittills under utbildningen har vi främst arbetat med Razor Pages, .NET Core-konsolapplikationer och Entity Framework. Under resterande del kommer vi att fördjupa oss i exempelvis WPF och Blazor. Det har varit ett starkt fokus på mjukvaruarkitektur i utbildningen, vilket jag verkligen uppskattar.",
+      "Hittills under utbildningen har vi främst arbetat med Razor Pages, .NET Core-konsolapplikationer och Entity Framework. Under resterande del kommer vi att fördjupa oss i exempelvis WPF och Blazor.",
     icon: DotNetIcon,
     source: "KYH Yrkeshögskola",
   },
