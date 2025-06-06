@@ -4,7 +4,11 @@ Min portfolio hemsida. Byggd React, Vite, TailwindCSS och TypeScript.
 
 ## Live demo
 
+Hemsidan:
 [portfolio-antonsandberg.vercel.app](https://portfolio-antonsandberg.vercel.app)
+
+API:
+[https://antonsportfolio-e2czgddpg5byfwck.swedencentral-01.azurewebsites.net/api/PortfolioProjects](https://antonsportfolio-e2czgddpg5byfwck.swedencentral-01.azurewebsites.net/api/PortfolioProjects)
 
 ## Tech Stack
 
