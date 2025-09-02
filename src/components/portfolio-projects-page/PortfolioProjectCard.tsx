@@ -29,11 +29,7 @@ const PortfolioProjectCard = ({ project }: Props) => {
           </p>
         </div>
         <div className="size-12">
-          <img
-            src={`${import.meta.env.VITE_PORTFOLIO_API_URL}${imageUrl}`}
-            alt={`Preview of ${name}`}
-            className="w-full h-full"
-          />
+          <img src={imageUrl} alt={`Preview of ${name}`} className="w-full h-full" />
         </div>
       </div>
       <Highlight>Beskrivning:</Highlight>
