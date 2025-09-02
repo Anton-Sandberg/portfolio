@@ -1,6 +1,5 @@
 import AboutMeAccordion from "@/components/about-page/AboutMeAccordion";
 import ProfileFacts from "@/components/about-page/ProfileFacts";
-import TestimonialSection from "@/components/about-page/TestimonialSection";
 import ProfilePicture from "@assets/images/profile-picture.jpg";
 
 const About = () => {
