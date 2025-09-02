@@ -1,5 +1,4 @@
 import { FaGithub } from "react-icons/fa";
-import WeatherForecast from "./WeatherForecast";
 
 const Footer = () => {
   return (
@@ -7,9 +6,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 items-center gap-2 md:gap-0 text-sm text-neutral-500 text-center md:text-left">
         <p className="md:text-left">Skapad av Anton Såndberg</p>
 
-        <p className="md:text-center">
-          Copyright &copy; {new Date().getFullYear()}
-        </p>
+        <p className="md:text-center">Copyright &copy; {new Date().getFullYear()}</p>
 
         <div className="md:text-right">
           <a
@@ -20,7 +17,6 @@ const Footer = () => {
           >
             <FaGithub className="inline-block size-6 hover:text-white transition" />
           </a>
-          <WeatherForecast /> {/* Ta bort efter rättning */}
         </div>
       </div>
     </footer>
