@@ -1,5 +1,5 @@
 import PrimaryButton from "@/components/PrimaryButton";
-import resume from "@/assets/resumeTemplate.pdf";
+import resume from "@/assets/CV - Anton Såndberg.pdf";
 
 const ResumeDownloadCard = () => {
   return (
