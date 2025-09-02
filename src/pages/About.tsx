@@ -22,7 +22,6 @@ const About = () => {
           <AboutMeAccordion />
         </div>
       </div>
-      <TestimonialSection />
     </section>
   );
 };
