@@ -11,6 +11,7 @@ const PortfolioProjectCard = ({ project }: Props) => {
     description,
     programmingLanguages,
     techStacks,
+    dateStarted,
     dateCompleted,
     githubLink,
     liveDemoLink,
@@ -25,7 +26,10 @@ const PortfolioProjectCard = ({ project }: Props) => {
             <h3>{name}</h3>
           </Highlight>
           <p className="text-sm italic">
-            {new Date(dateCompleted).toLocaleDateString("sv-SE")}
+            {dateStarted && `${new Date(dateStarted).toLocaleDateString("sv-SE")} – `}
+            {dateCompleted
+              ? new Date(dateCompleted).toLocaleDateString("sv-SE")
+              : "Pågående"}
           </p>
         </div>
         <div className="size-12">
@@ -45,17 +49,19 @@ const PortfolioProjectCard = ({ project }: Props) => {
       </div>
 
       <div className="flex gap-6 mt-auto">
-        <a
-          href={githubLink}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-sm hover:text-white"
-        >
-          <div className="flex items-center gap-2">
-            <FaGithub className="size-10" />
-            <p>Github</p>
-          </div>
-        </a>
+        {githubLink && (
+          <a
+            href={githubLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm hover:text-white"
+          >
+            <div className="flex items-center gap-2">
+              <FaGithub className="size-10" />
+              <p>Github</p>
+            </div>
+          </a>
+        )}
 
         {liveDemoLink && (
           <a

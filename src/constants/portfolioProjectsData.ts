@@ -3,8 +3,20 @@ import myPortfolioImage from "@assets/images/my-portfolio-image.png";
 import bankSystemImage from "@assets/images/bank-system-image.png";
 import annonsApiImage from "@assets/images/annons-api-image.png";
 import shapesCalculatorRpsImage from "@assets/images/shapes-calculator-rps-image.png";
+import stenoTypeTrainerImage from "@assets/images/steno-type-trainer-image.svg";
 
 export const portfolioProjects: PortfolioProject[] = [
+  {
+    id: 5,
+    name: "Steno Type Trainer",
+    description:
+      "En webbaserad träningsapp för att lära sig stenografi med Plover. Byggd som ett hobbyprojekt för att skapa tydligare material för nybörjare och samtidigt fortsätta utveckla mina kunskaper inom webbutveckling.",
+    programmingLanguages: ["TypeScript", "HTML", "CSS"],
+    techStacks: ["React", "Vite", "Vercel"],
+    dateStarted: "2026-09-11",
+    liveDemoLink: "https://steno-type-trainer.vercel.app/",
+    imageUrl: stenoTypeTrainerImage,
+  },
   {
     id: 1,
     name: "Mitt Portfolio",

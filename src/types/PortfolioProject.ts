@@ -4,8 +4,9 @@ export interface PortfolioProject {
   description: string;
   programmingLanguages: string[];
   techStacks: string[];
-  dateCompleted: string;
-  githubLink: string;
+  dateStarted?: string;
+  dateCompleted?: string;
+  githubLink?: string;
   liveDemoLink?: string;
   imageUrl: string;
 }
