@@ -6,6 +6,7 @@ import HtmlIcon from "@/components/icons/HtmlIcon";
 import CssIcon from "@/components/icons/CssIcon";
 import JavaScriptIcon from "@/components/icons/JavaScriptIcon";
 import TypeScriptIcon from "@/components/icons/TypeScriptIcon";
+import SharePointIcon from "@/components/icons/SharePointIcon";
 
 export const SKILLS = [
   {
@@ -35,6 +36,13 @@ export const SKILLS = [
       "Jag föll direkt för den komponentbaserade strukturen. React klickade med mitt sätt att tänka, och det blev snabbt mitt favoritramverk för frontend.",
     icon: ReactIcon,
     source: "KYH Yrkeshögskola",
+  },
+  {
+    title: "SPFx / SharePoint",
+    description:
+      "Under min praktik arbetade jag med SPFx och utvecklade SharePoint Web Parts med React och TypeScript. Byggde bland annat rollbaserad funktionalitet samt integrationer via Azure Functions.",
+    icon: SharePointIcon,
+    source: "Praktik/LIA på Just Name IT",
   },
   {
     title: "HTML",
