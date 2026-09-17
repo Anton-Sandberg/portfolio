@@ -25,10 +25,10 @@ const ProfileFacts = () => {
         <Highlight>Ålder:</Highlight> {age} år.
       </div>
       <div>
-        <Highlight>Bosatt:</Highlight> Eskilstuna (Öppen för pendling).
-      </div>
-      <div>
-        <Highlight>Studerar:</Highlight> .NET-utveckling på KYH.
+        <div>
+          <Highlight>Bosatt:</Highlight> Eskilstuna.
+        </div>
+        <div>Öppen för att pendla eller flytta vid rätt tjänst.</div>
       </div>
     </div>
   );
