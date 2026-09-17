@@ -9,26 +9,18 @@ const WelcomeMessage = () => {
 
       <p>
         Jag heter <Highlight className="whitespace-nowrap">Anton Såndberg</Highlight> och
-        studerar <Highlight className="whitespace-nowrap">.NET-utveckling</Highlight> på
-        KYH.
+        är utbildad inom <Highlight className="whitespace-nowrap">.NET-utveckling</Highlight>.
       </p>
 
       <p>
-        Just nu söker jag efter en <Highlight>praktikplats</Highlight> och är taggad på
-        att lära mig ännu mer.
+        Just nu söker jag min första utvecklarroll och fortsätter samtidigt att bygga
+        egna projekt inom webbutveckling och systemutveckling.
       </p>
 
-      <div>
-        <p>
-          Min <Highlight>LIA</Highlight> (Lärande i arbete) period är från:
-        </p>
-
-        <div>
-          <Highlight>8 December 2025</Highlight>
-          <div>till</div>
-          <Highlight>24 April 2026</Highlight>
-        </div>
-      </div>
+      <p>
+        Bland annat utvecklar jag just nu en webbaserad app för att lära ut stenografi
+        med Plover.
+      </p>
     </div>
   );
 };
