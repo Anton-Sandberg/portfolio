@@ -17,11 +17,11 @@ export const SKILLS = [
     source: "Självstudier, Malmö Universitet (15 HP), KYH Yrkeshögskola",
   },
   {
-    title: ".NET Core",
+    title: ".NET / .NET Core",
     description:
-      "Hittills under utbildningen har vi främst arbetat med Razor Pages, .NET Core-konsolapplikationer och Entity Framework. Under resterande del kommer vi att fördjupa oss i exempelvis WPF och Blazor.",
+      "Har arbetat brett med .NET genom utbildning och praktik, bland annat med webbapplikationer, API:er, databaser, Entity Framework, WPF och Azure Functions. Har även byggt systemintegrationer mot externa tjänster.",
     icon: DotNetIcon,
-    source: "KYH Yrkeshögskola",
+    source: "KYH Yrkeshögskola, Praktik/LIA",
   },
   {
     title: "Unity",
