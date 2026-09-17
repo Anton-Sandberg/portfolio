@@ -5,6 +5,12 @@ interface Props {
   project: PortfolioProject;
 }
 
+const formatProjectDate = (date: string) => {
+  if (/^\d{4}$/.test(date)) return date;
+
+  return new Date(date).toLocaleDateString("sv-SE");
+};
+
 const PortfolioProjectCard = ({ project }: Props) => {
   const {
     name,
@@ -15,6 +21,7 @@ const PortfolioProjectCard = ({ project }: Props) => {
     dateCompleted,
     githubLink,
     liveDemoLink,
+    liveDemoLabel,
     imageUrl,
   } = project;
 
@@ -26,10 +33,8 @@ const PortfolioProjectCard = ({ project }: Props) => {
             <h3>{name}</h3>
           </Highlight>
           <p className="text-sm italic">
-            {dateStarted && `${new Date(dateStarted).toLocaleDateString("sv-SE")} – `}
-            {dateCompleted
-              ? new Date(dateCompleted).toLocaleDateString("sv-SE")
-              : "Pågående"}
+            {dateStarted && `${formatProjectDate(dateStarted)} – `}
+            {dateCompleted ? formatProjectDate(dateCompleted) : "Pågående"}
           </p>
         </div>
         <div className="size-12">
@@ -72,7 +77,7 @@ const PortfolioProjectCard = ({ project }: Props) => {
           >
             <div className="flex items-center gap-2">
               <FaPlayCircle className="size-10" />
-              <p>Live Demo</p>
+              <p>{liveDemoLabel ?? "Live Demo"}</p>
             </div>
           </a>
         )}

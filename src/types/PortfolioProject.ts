@@ -8,5 +8,6 @@ export interface PortfolioProject {
   dateCompleted?: string;
   githubLink?: string;
   liveDemoLink?: string;
+  liveDemoLabel?: string;
   imageUrl: string;
 }
