@@ -22,6 +22,6 @@ export const aboutMeData: AboutMe[] = [
     value: "item-3",
     title: "Min väg till programmering.",
     content:
-      "2019 blev jag intresserad på att göra egna spel och insåg att jag behövde lära mig programmering. Jag började med Unity och C#, och fastnade direkt, det var mycket roligare än jag trodde! Detta ledde sedan till att jag sökte .NET-utveckling på KYH.",
+      "2019 blev jag intresserad av att göra egna spel och insåg att jag behövde lära mig programmering. Jag började med Unity och C#, fastnade direkt och upptäckte snabbt att programmering var något jag verkligen gillade. Sedan dess har intresset vuxit vidare genom studier inom .NET-utveckling, praktik och egna projekt.",
   },
 ];
