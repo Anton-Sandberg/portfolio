@@ -6,10 +6,11 @@ import JavaScriptIcon from "@components/icons/JavaScriptIcon";
 import ReactIcon from "@components/icons/ReactIcon";
 import TypeScriptIcon from "@components/icons/TypeScriptIcon";
 import UnityIcon from "@components/icons/UnityIcon";
+import SharePointIcon from "@components/icons/SharePointIcon";
 
 const TechIcons = () => {
   return (
-    <div className="flex flex-wrap max-w-80 justify-center gap-6">
+    <div className="grid w-fit grid-cols-3 gap-4">
       <CSharpIcon className="size-14 text-[#9B4F96]" />
       <DotNetIcon className="size-14 text-[#623697]" />
       <UnityIcon className="size-14 text-[#cacaca]" />
@@ -18,6 +19,7 @@ const TechIcons = () => {
       <HtmlIcon className="size-14 text-[#E44D26]" />
       <CssIcon className="size-14 text-[#1572B6]" />
       <TypeScriptIcon className="size-14 text-[#007acc]" />
+      <SharePointIcon className="size-14" />
     </div>
   );
 };

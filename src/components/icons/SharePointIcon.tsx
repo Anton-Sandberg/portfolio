@@ -7,7 +7,7 @@ type Props = {
 const SharePointIcon = ({ className }: Props) => {
   return (
     <svg
-      className={clsx("size-full text-[#038387]", className)}
+      className={clsx("text-[#038387]", className ?? "size-full")}
       viewBox="0 0 128 128"
       role="img"
       aria-label="SharePoint"
