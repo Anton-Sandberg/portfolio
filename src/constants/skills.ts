@@ -47,7 +47,7 @@ export const SKILLS = [
   {
     title: "HTML",
     description:
-      "Introducerades under utbildningen. Grunderna satt snabbt, och det kändes kul to kunna bygga något som faktiskt syntes direkt i webbläsaren.",
+      "Introducerades under utbildningen. Grunderna satt snabbt, och det kändes kul att kunna bygga något som faktiskt syntes direkt i webbläsaren.",
     icon: HtmlIcon,
     source: "KYH Yrkeshögskola",
   },
