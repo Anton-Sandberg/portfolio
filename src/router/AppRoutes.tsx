@@ -7,6 +7,7 @@ import Projects from "@pages/Projects";
 import Contact from "@pages/Contacts";
 import Resume from "@pages/Resume";
 import Skills from "@pages/Skills";
+import Privacy from "@pages/Privacy";
 
 const AppRoutes = () => {
   return (
@@ -17,6 +18,7 @@ const AppRoutes = () => {
       <Route path={PATHS.contact} element={<Contact />} />
       <Route path={PATHS.resume} element={<Resume />} />
       <Route path={PATHS.skills} element={<Skills />} />
+      <Route path={PATHS.privacy} element={<Privacy />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );

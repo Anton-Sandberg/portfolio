@@ -2,6 +2,7 @@ import Navbar from "@components/navbar/Navbar";
 import AppRoutes from "@router/AppRoutes";
 import Container from "@components/Container";
 import Footer from "@/components/Footer";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         </Container>
       </main>
       <Footer />
+      <Analytics />
     </div>
   );
 }

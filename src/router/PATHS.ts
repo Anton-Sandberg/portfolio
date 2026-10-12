@@ -5,5 +5,6 @@ export const PATHS = {
   projects: "/projects",
   resume: "/resume",
   skills: "/skills",
+  privacy: "/integritet",
   // Add more paths here
 };
